@@ -1,0 +1,37 @@
+name: flutterfire_auth
+description: A starter template for Flutter Firebase Auth
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Firebase
+  firebase_core: ^1.0.3
+  firebase_auth: ^1.0.3
+
+  # State Management
+  provider: ^5.0.0
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - Saly.png
+    - logo_lco.png
+    - tag.png
